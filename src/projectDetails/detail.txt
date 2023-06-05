@@ -1,0 +1,11 @@
+/*------- Project Information -------*/
+
+/** Package Installation
+    1. npm create vite@latest // To create and start a react project
+    2. npm install
+    3. npm i react-router-dom
+    4. npm i react-toastify
+    5. npm install recharts
+
+
+*/

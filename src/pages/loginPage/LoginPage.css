@@ -1,0 +1,175 @@
+.login-page-wrapper {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    overflow: hidden;
+}
+
+.login {
+    padding: 20px;
+    background: url(../../assets/images/login.png) no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    max-width: 530px;
+    width: 100%;
+}
+
+.login h2 {
+    color: #fff;
+    font-size: 32px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.inner-login-page {
+    position: absolute;
+    top: 38px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+/* Form Design */
+
+.login-form {
+    padding-bottom: 40px;
+}
+
+.login-form label {
+    color: #fff;
+}
+
+.login-form input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 16px 20px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+}
+
+#email {
+    margin-bottom: 20px;
+}
+
+.login-form span a {
+    color: #fff;
+    display: flex;
+    justify-content: end;
+}
+
+.login-form a:hover {
+    color: #FFB017;
+    transition: all 0.5s;
+}
+
+/* Password */
+.password {
+    display: flex;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+.password button {
+    background-color: #fff;
+    border: none;
+    outline: none;
+}
+
+.password {}
+
+/* Error Message */
+#error-message {
+    color: #FFB017;
+    padding: 0;
+    margin: 0;
+}
+
+.checkbox {
+    color: #fff;
+    padding: 10px 0 20px;
+}
+
+input[type="checkbox"] {
+    /* Remove default browser styles */
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+
+input[type="checkbox"]+label {
+    /* Style the label for the checkbox */
+    display: inline-block;
+    padding-left: 25px;
+    position: relative;
+    cursor: pointer;
+}
+
+input[type="checkbox"]+label:before {
+    /* Customize the checkbox icon */
+    content: "";
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background-color: #321656;
+    border-radius: 5px;
+    border: 1.5px solid #FFFFFF;
+    position: absolute;
+    left: 0;
+    top: 2px;
+}
+
+input[type="checkbox"]:checked+label:before {
+    /* Customize the checked state of the checkbox */
+    background-color: #FFB017;
+}
+
+#checkbox {
+    width: auto;
+    margin-left: -42px;
+}
+
+/* Btn Style */
+#lgn-btn,
+#rgs-btn {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 15px;
+    font-weight: 600;
+}
+
+#lgn-btn {
+    margin-bottom: 18px;
+    background-color: #FFB017;
+    color: #000;
+    border: 2px solid #FFB017;
+}
+
+#lgn-btn:hover {
+    border: 2px solid #FFB017;
+    background: linear-gradient(0deg, rgba(50, 22, 86, 0.1), rgba(50, 22, 86, 0.1));
+    color: #FFB017;
+    box-shadow: -38.20000076293945px 38.20000076293945px 38.20000076293945px 0px #FFFFFF1A inset;
+
+    box-shadow: 38.20000076293945px -38.20000076293945px 38.20000076293945px 0px #C2C2C21A inset;
+    transition: all 0.4s;
+}
+
+#rgs-btn {
+    border: 2px solid #FFB017;
+    background: linear-gradient(0deg, rgba(50, 22, 86, 0.1), rgba(50, 22, 86, 0.1));
+    color: #FFB017;
+    box-shadow: -38.20000076293945px 38.20000076293945px 38.20000076293945px 0px #FFFFFF1A inset;
+
+    box-shadow: 38.20000076293945px -38.20000076293945px 38.20000076293945px 0px #C2C2C21A inset;
+}
+
+#rgs-btn:hover {
+    background-color: #FFB017;
+    color: #000;
+    border: 2px solid #FFB017;
+    transition: all 0.4s;
+}

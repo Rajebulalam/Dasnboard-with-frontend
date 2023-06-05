@@ -1,0 +1,29 @@
+.dashboard-wrapper {
+    display: grid;
+    grid-template-columns: 280px 1fr;
+    box-sizing: border-box;
+}
+
+.sidebar-wrapper {
+    background-color: #321656;
+    padding: 20px;
+    width: 100%;
+}
+
+.sidebar-wrapper h2 {
+    color: #fff;
+    padding-bottom: 30px;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.sidebar-wrapper {}
+
+
+
+
+/* Dashboard Layout  */
+.dashboard-layout {
+    width: 100%;
+}
