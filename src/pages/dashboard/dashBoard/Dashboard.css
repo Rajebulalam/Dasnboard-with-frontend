@@ -6,19 +6,50 @@
 
 .sidebar-wrapper {
     background-color: #321656;
-    padding: 20px;
     width: 100%;
+    padding: 20px;
 }
 
 .sidebar-wrapper h2 {
     color: #fff;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
     font-size: 24px;
     font-weight: 600;
     text-align: center;
 }
 
-.sidebar-wrapper {}
+.sidebar-wrapper a {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    border-radius: 4px;
+    padding: 10px 20px;
+}
+
+.sidebar-wrapper a img {
+    padding-right: 10px;
+}
+
+.sidebar-wrapper p {
+    color: #999999;
+    font-size: 14px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.sidebar-wrapper .active {
+    background: linear-gradient(224.53deg, #9747FF 0%, #7E72F2 99.2%);
+    box-shadow: -1px 1px 8px 0px #7E72F266;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.sidebar-wrapper .inactive:hover {
+    background: linear-gradient(224.53deg, #9747FF 0%, #7E72F2 99.2%);
+    box-shadow: -1px 1px 8px 0px #7E72F266;
+    border-radius: 4px;
+    transition: all 0.5s;
+}
 
 
 

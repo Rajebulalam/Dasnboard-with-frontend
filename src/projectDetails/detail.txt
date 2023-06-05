@@ -6,6 +6,7 @@
     3. npm i react-router-dom
     4. npm i react-toastify
     5. npm install recharts
+    6. npm install @mui/icons-material @mui/material @emotion/styled @emotion/react
 
 
 */
