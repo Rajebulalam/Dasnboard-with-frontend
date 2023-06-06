@@ -10,6 +10,7 @@ import searchByCollege from '../../../assets/images/searchByCollege.png';
 import viewAllColleges from '../../../assets/images/viewAllColleges.png';
 import findByColleges from '../../../assets/images/findColleges.png';
 import collegeQueries from '../../../assets/images/collegeQueries.png';
+import logout from '../../../assets/images/logout.png';
 
 const Dashboard = () => {
     return (
@@ -83,6 +84,15 @@ const Dashboard = () => {
                     <img src={collegeQueries} alt="collegeQueries" />
                     College Queries
                 </NavLink>
+
+                <div className='logout'>
+                    <NavLink to='/logout' className={({ isActive }) =>
+                        isActive ? 'active' : 'inactive'
+                    }>
+                        <img src={logout} alt="logout" />
+                        Logout
+                    </NavLink>
+                </div>
             </div>
 
             {/* Dashboard Layout */}

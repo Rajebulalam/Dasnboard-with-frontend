@@ -1,0 +1,141 @@
+.dashboard-root-wrapper {
+    display: block;
+}
+
+.dashboard-root-header {
+    background-color: #fff;
+    box-shadow: 0px 2px 9px 0px #0000001A;
+    height: 70px;
+    display: flex;
+    justify-content: end;
+    padding-right: 30px;
+}
+
+/* Number Part */
+.number-wrapper {
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    position: relative;
+}
+
+.number-wrapper h3 {
+    font-size: 27px;
+    margin: 0;
+    padding: 0;
+}
+
+.number-wrapper .top p {
+    color: #999999;
+    margin: 0;
+    padding: 0;
+}
+
+.number-wrapper .first .top div:last-child {
+    background-color: #7E72F2;
+    padding: 20px 7px;
+    border-radius: 50%;
+}
+
+.number-wrapper .first .top,
+.number-wrapper .second .top,
+.number-wrapper .third .top {
+    padding-bottom: 80px;
+}
+
+.number-wrapper .first,
+.number-wrapper .second,
+.number-wrapper .third {
+    position: relative;
+}
+
+.number-wrapper .first .bottom,
+.number-wrapper .second .bottom,
+.number-wrapper .third .bottom {
+    position: absolute;
+    bottom: 0;
+    width: 86%;
+}
+
+.number-wrapper .first .bottom p,
+.number-wrapper .second .bottom p {
+    color: #34DD63;
+    font-size: 16px;
+}
+
+.number-wrapper a {
+    color: #999999;
+    font-size: 12px;
+}
+
+.number-wrapper .second .top div:last-child {
+    background-color: #FFF388;
+    padding: 12px 14px;
+    border-radius: 50%;
+}
+
+.number-wrapper .third .top div:last-child {
+    background-color: #56FF9A;
+    padding: 14px 14px;
+    border-radius: 50%;
+}
+
+.number-wrapper .third .bottom p {
+    color: #FF302F;
+}
+
+/* Course and Queries */
+.course-queries-wrapper {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding: 10px 30px;
+    grid-gap: 16px;
+}
+
+.course-queries-wrapper .course {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.queries a,
+.course a {
+    color: #999999;
+    font-size: 12px;
+}
+
+.queries h4,
+.course h4 {
+    padding: 0;
+    margin: 0;
+}
+
+.chart {
+    padding-top: 30px;
+}
+
+.query-header {
+    padding: 0 10px;
+    margin-bottom: 10px;
+}
+
+.course-queries-wrapper .queries {
+    margin-left: 13px;
+}
+
+.refund .common-style-2 {
+    border-radius: 0 !important;
+    padding: 0 15px;
+}
+
+.refund div {
+    margin-bottom: 15px;
+}
+
+.refund div:last-child {
+    margin-bottom: 0;
+}
+
+.refund p {
+    font-weight: 600;
+}

@@ -8,3 +8,22 @@
     display: flex;
     align-items: center;
 }
+
+.display-3rd {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.common-style {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 8px 0px #00000040;
+    border-radius: 12px;
+    padding: 12px 12px 8px 12px;
+}
+
+.common-style-2 {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 8px 0px #00000040;
+    border-radius: 12px;
+}
