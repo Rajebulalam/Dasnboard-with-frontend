@@ -28,7 +28,7 @@ const Dashboard = () => {
                     Dashboard
                 </NavLink>
                 <p>Jobs</p>
-                <NavLink to='/postJob' className={({ isActive }) =>
+                <NavLink to='dashboard/postJob' className={({ isActive }) =>
                     isActive ? 'active' : 'inactive'
                 }>
                     <img src={postJob} alt="postJobImage" />

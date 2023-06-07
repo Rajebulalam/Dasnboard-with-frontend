@@ -1,8 +1,9 @@
 import { createBrowserRouter } from "react-router-dom";
 import Main from '../layout/Main';
 import LoginPage from "../pages/loginPage/LoginPage";
-import Dashboard from "../pages/dashboard/dashBoard/dashboard";
+import Dashboard from "../pages/dashboard/dashBoard/Dashboard";
 import DashboardRoot from "../pages/dashboard/dashboardRoot/DashboardRoot";
+import PostAJob from "../pages/dashboard/postAJob/PostAJob";
 
 const router = createBrowserRouter([
     {
@@ -24,6 +25,10 @@ const router = createBrowserRouter([
                     {
                         path: '',
                         element: <DashboardRoot />
+                    },
+                    {
+                        path: 'dashboard/postJob',
+                        element: <PostAJob />
                     }
                 ]
             }
