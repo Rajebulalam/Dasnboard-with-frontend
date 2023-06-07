@@ -1,0 +1,44 @@
+.text-editor .ql-toolbar.ql-snow {
+    border: none !important;
+    background-color: #FFF388;
+    border-radius: 8px 8px 0 0;
+    padding: 20px 10px;
+}
+
+.text-editor .ql-toolbar.ql-snow+.ql-container.ql-snow {
+    border: none;
+}
+
+.text-editor .ql-bold:hover,
+.text-editor .ql-italic:hover,
+.text-editor .ql-underline:hover,
+.text-editor .ql-link:hover,
+.text-editor .ql-list:hover,
+.text-editor .ql-clean:hover {
+    border: none;
+    outline: none;
+    background-color: #fff !important;
+    color: #0000 !important;
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out !important;
+}
+
+.text-editor .ql-header .ql-picker-label:hover {
+    color: #9747FF !important;
+    background-color: none !important;
+}
+
+.text-editor .quill {
+    min-height: 400px;
+    height: 100% !important;
+    width: 100% !important;
+}
+
+.text-editor .ql-color .ql-picker-label {
+    border: none;
+    outline: none;
+    background-color: #fff !important;
+    color: #0000 !important;
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out !important;
+}
