@@ -1,4 +1,8 @@
 /* Button Part */
+.post-job-wrapper {
+    padding-bottom: 40px;
+}
+
 .post-job-wrapper .btn-part {
     display: flex;
     justify-content: end;
@@ -85,4 +89,228 @@
     margin: 5px;
 }
 
-.job-details-part .job-description {}
+/* Post Details */
+.post-details {
+    display: grid;
+    grid-template-columns: 1.5fr 3fr;
+    grid-gap: 20px;
+}
+
+.post-details .first p,
+.post-details .second p {
+    color: #7D7D7D;
+    font-weight: 500;
+}
+
+.post-details .first .post {
+    margin-top: 20px !important;
+}
+
+.post-details .first button {
+    background-color: #fff;
+    color: #B3B3B3;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    font-weight: 600;
+}
+
+
+.post-details .first .post span {
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.post-details .first .experience {
+    padding: 0 15px;
+    max-height: 50px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.post-details .first .experience span {
+    font-size: 26px;
+    font-weight: 600;
+    border: none;
+    outline: none;
+}
+
+.post-details .first .experience h6 {
+    color: #7D7D7D;
+    font-size: 14px;
+}
+
+
+/* Cities */
+.post-details .second .cities {
+    margin-top: 20px;
+}
+
+.post-details .second .cities span {
+    padding: 10px 15px;
+    margin-right: 10px;
+    font-weight: 700;
+    font-size: 19px;
+    min-height: 24px !important;
+    display: inline-block;
+}
+
+.post-details .second .cities button {
+    border: none;
+    outline: none;
+    background-color: #FFF388;
+    font-weight: 700;
+    font-size: 19px;
+}
+
+.post-details .second .ctg {
+    max-width: 180px;
+    width: 100%;
+    height: 50px;
+}
+
+.post-details .second .ctg span {
+    color: #7D7D7D;
+    padding: 3px 5px 0 5px;
+    margin: 0;
+    font-size: 10px;
+}
+
+.post-details .second .ctg p {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    color: #000;
+    font-size: 22px;
+    font-weight: 700;
+    overflow: hidden;
+    border: none;
+    outline: none;
+}
+
+/* Skill and Languages Needed */
+.skill {
+    box-sizing: border-box;
+}
+
+.skill div,
+.language div {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.skill-wrapper p,
+.languages-wrapper p {
+    color: #7D7D7D;
+    padding-top: 15px;
+    font-weight: 500;
+}
+
+.skill-wrapper .skill p,
+.languages-wrapper .language p {
+    background-color: #FFF388;
+    padding: 0;
+    border-radius: 25px;
+    padding-left: 10px;
+    margin-right: 10px;
+}
+
+.skill-wrapper .skill p span,
+.languages-wrapper .language p span {
+    color: #000;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.skill-wrapper .skill button,
+.languages-wrapper .language button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.languages-wrapper .language p {
+    background-color: #56FF9A;
+}
+
+/* Test Structure */
+.test-structure {
+    padding: 0 30px;
+}
+
+.test-structure h2 {
+    color: #535353;
+    text-decoration: underline;
+}
+
+.test-structure .round {
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 4fr;
+    grid-gap: 20px;
+}
+
+.test-structure .round .title {
+    color: #7D7D7D;
+}
+
+.test-structure .round .first p,
+.test-structure .round .second p {
+    padding: 10px 18px;
+    font-weight: 600;
+}
+
+
+.test-structure .round .mark-time {
+    display: flex;
+    justify-content: center;
+}
+
+.test-structure .round .mark-time div:first-child {
+    margin-right: 20px;
+}
+
+.test-structure .round .mark-time .title {
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 26px;
+}
+
+.test-structure .round .mark-time span {
+    padding: 12px 15px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.test-structure .round .mark-time button {
+    border: none;
+    outline: none;
+    display: inline-block;
+    background-color: #56FF9A;
+    font-size: 20px;
+    height: 46px;
+    font-weight: 600;
+    margin-top: 40px;
+}
+
+.test-structure .round .fourth .custom-file-input {
+    padding: 13.5px 15px;
+    font-size: 14px;
+}
+
+.test-structure .round .fourth .title {
+    margin-top: 0;
+    margin-bottom: 26px;
+}
+
+.test-structure .round .fourth .upload {
+    background-color: #FFF388;
+    padding: 10px 13px;
+    border-radius: 8px;
+    margin-right: 5px;
+    font-weight: 500;
+}
+
+.test-structure .round .fourth .upload {}
