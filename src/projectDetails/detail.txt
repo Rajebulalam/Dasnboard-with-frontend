@@ -7,6 +7,9 @@
     4. npm i react-toastify
     5. npm install recharts
     6. npm install @mui/icons-material @mui/material @emotion/styled @emotion/react
+    7. npm i react-quill
+    8. npm i preact
+    9. npm i material-react-table @mui/material @mui/icons-material @emotion/react @emotion/styled
 
 
 */

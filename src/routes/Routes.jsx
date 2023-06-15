@@ -4,6 +4,7 @@ import LoginPage from "../pages/loginPage/LoginPage";
 import Dashboard from "../pages/dashboard/dashBoard/Dashboard";
 import DashboardRoot from "../pages/dashboard/dashboardRoot/DashboardRoot";
 import PostAJob from "../pages/dashboard/postAJob/PostAJob";
+import ViewAllJobs from "../pages/dashboard/viewAllJobs/ViewAllJobs";
 
 const router = createBrowserRouter([
     {
@@ -29,6 +30,10 @@ const router = createBrowserRouter([
                     {
                         path: 'dashboard/postJob',
                         element: <PostAJob />
+                    },
+                    {
+                        path: 'dashboard/viewAllJobs',
+                        element: <ViewAllJobs />
                     }
                 ]
             }

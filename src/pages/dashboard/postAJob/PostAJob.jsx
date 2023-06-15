@@ -168,7 +168,7 @@ const PostAJob = () => {
                 <div className='round'>
                     <div className='first'>
                         <span className='title'>Round #1</span>
-                        <p className='common-style-3'>Aptitude Round</p>
+                        <p className='common-style-3'>Coding Round</p>
                     </div>
                     <div className='second'>
                         <span className='title'>Details</span>

@@ -34,51 +34,51 @@ const Dashboard = () => {
                     <img src={postJob} alt="postJobImage" />
                     Post a Job
                 </NavLink>
-                <NavLink to='/viewAllJobs' className={({ isActive }) =>
+                <NavLink to='dashboard/viewAllJobs' className={({ isActive }) =>
                     isActive ? 'active' : 'inactive'
                 }>
                     <img src={viewAllJobs} alt="postJobImage" />
                     View All Jobs
                 </NavLink>
                 <p>Students</p>
-                <NavLink to='/allStudents' className={({ isActive }) =>
+                <NavLink to='dashboard/allStudents' className={({ isActive }) =>
                     isActive ? 'active' : 'inactive'
                 }>
                     <img src={allStudents} alt="allStudent" />
                     View All Students
                 </NavLink>
-                <NavLink to='/findStudents' className={({ isActive }) =>
+                <NavLink to='dashboard/findStudents' className={({ isActive }) =>
                     isActive ? 'active' : 'inactive'
                 }>
                     <img src={findStudents} alt="findStudents" />
                     Find Students
                 </NavLink>
-                <NavLink to='/studentQueries' className={({ isActive }) =>
+                <NavLink to='dashboard/studentQueries' className={({ isActive }) =>
                     isActive ? 'active' : 'inactive'
                 }>
                     <img src={studentQueries} alt="studentQueries" />
                     Student Queries
                 </NavLink>
-                <NavLink to='/searchCollege' className={({ isActive }) =>
+                <NavLink to='dashboard/searchCollege' className={({ isActive }) =>
                     isActive ? 'active' : 'inactive'
                 }>
                     <img src={searchByCollege} alt="searchCollege" />
                     Search by College
                 </NavLink>
                 <p>College</p>
-                <NavLink to='/allColleges' className={({ isActive }) =>
+                <NavLink to='dashboard/allColleges' className={({ isActive }) =>
                     isActive ? 'active' : 'inactive'
                 }>
                     <img src={viewAllColleges} alt="allColleges" />
                     View All Colleges
                 </NavLink>
-                <NavLink to='/findColleges' className={({ isActive }) =>
+                <NavLink to='dashboard/findColleges' className={({ isActive }) =>
                     isActive ? 'active' : 'inactive'
                 }>
                     <img src={findByColleges} alt="findColleges" />
                     Find Colleges
                 </NavLink>
-                <NavLink to='/collegeQueries' className={({ isActive }) =>
+                <NavLink to='dashboard/collegeQueries' className={({ isActive }) =>
                     isActive ? 'active' : 'inactive'
                 }>
                     <img src={collegeQueries} alt="collegeQueries" />

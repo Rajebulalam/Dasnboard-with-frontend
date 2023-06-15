@@ -1,0 +1,10 @@
+.view-all-jobs-wrapper {}
+
+.all-jobs-part {
+    padding: 30px;
+}
+
+.all-jobs-part h2 {
+    font-size: 32px;
+    font-weight: 700;
+}
