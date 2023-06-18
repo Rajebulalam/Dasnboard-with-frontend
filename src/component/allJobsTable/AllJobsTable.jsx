@@ -116,9 +116,9 @@ const AllJobsTable = () => {
             <MaterialReactTable
                 columns={columns}
                 data={data}
-
-                globalFilterModeOptions={false}
                 enableRowSelection
+                enableColumnActions={false}
+                globalFilterModeOptions={false}
                 muiTableHeadCellProps={{
                     sx: {
                         color: '#667085',
@@ -155,10 +155,9 @@ const AllJobsTable = () => {
                         variant="h5">Posted Jobs</Typography>
                 )}
                 enableRowActions
-                ena
                 enableSorting={false}
                 positionActionsColumn="last"
-
+                
                 renderRowActionMenuItems={({ closeMenu }) => [
                     <MenuItem
                         key={0}

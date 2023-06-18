@@ -1,0 +1,154 @@
+.all-students-table-wrapper table tr td,
+.all-students-table-wrapper table th {
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+
+/* Pagination Part */
+.all-students-table-wrapper .css-1llu0od {
+    padding: 35px;
+}
+
+.all-students-table-wrapper .css-qpxlqp {
+    padding: 7px;
+}
+
+.all-students-table-wrapper .css-pdct74-MuiTablePagination-selectLabel,
+.all-students-table-wrapper .css-78c6dr-MuiToolbar-root-MuiTablePagination-toolbar,
+.all-students-table-wrapper .css-levciy-MuiTablePagination-displayedRows {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.all-students-table-wrapper .css-78c6dr-MuiToolbar-root-MuiTablePagination-toolbar {
+    width: 70vw;
+    overflow: hidden;
+}
+
+.all-students-table-wrapper .css-qpxlqp {
+    justify-content: flex-start;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.all-students-table-wrapper .css-16253fi-MuiTablePagination-root .MuiTablePagination-toolbar {
+    position: relative;
+    padding-left: 10px;
+}
+
+.all-students-table-wrapper .css-78c6dr-MuiToolbar-root-MuiTablePagination-toolbar .MuiTablePagination-actions {
+    margin-left: 0;
+    position: absolute;
+    right: 0;
+    width: 255px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.all-students-table-wrapper .css-1psng7p-MuiTablePagination-spacer {
+    flex: none;
+}
+
+
+.all-students-table-wrapper .css-zylse7-MuiButtonBase-root-MuiIconButton-root {
+    padding: 10px 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 4px 0px #00000033;
+    border-radius: 8px;
+}
+
+.all-students-table-wrapper .css-zylse7-MuiButtonBase-root-MuiIconButton-root {
+    position: relative;
+    cursor: pointer;
+    width: 120px;
+    border: none;
+    outline: none;
+    padding: 23px 0;
+}
+
+/* Default Right and Left Arrow Pagination Sign Deleted */
+.all-students-table-wrapper .MuiTablePagination-actions .css-i4bv87-MuiSvgIcon-root {
+    display: none;
+}
+
+.all-students-table-wrapper .css-zylse7-MuiButtonBase-root-MuiIconButton-root:first-child::before {
+    position: absolute;
+    content: 'Previous';
+    color: #000;
+    font-size: 16px;
+}
+
+.all-students-table-wrapper .css-zylse7-MuiButtonBase-root-MuiIconButton-root:last-child::before {
+    position: absolute;
+    content: 'Next';
+    color: #000;
+    font-size: 17px;
+}
+
+
+.all-students-table-wrapper .css-zylse7-MuiButtonBase-root-MuiIconButton-root.Mui-disabled {
+    width: 120px;
+}
+
+/* Top Tool Bar Position Change */
+.all-students-table-wrapper .css-sq9qdz .css-1t9zy6l {
+    order: 2 !important;
+}
+
+/* Search Button */
+.all-students-table-wrapper .css-di3982 button:first-child {
+    background-color: #321656;
+    color: #fff;
+    padding: 10px 70px;
+    padding-left: 10px;
+    border-radius: 8px;
+    position: relative;
+    margin-right: 15px;
+}
+
+.all-students-table-wrapper .css-di3982 button:first-child::after {
+    position: absolute;
+    content: 'Search';
+    padding-left: 80px;
+    font-size: 16px;
+}
+
+.all-students-table-wrapper .css-v4u5dn-MuiInputBase-root-MuiInput-root:before {
+    border: none;
+}
+
+.all-students-table-wrapper .css-v4u5dn-MuiInputBase-root-MuiInput-root {
+    box-shadow: 0px 1px 2px 0px #1018280D;
+    border: 1px solid #D0D5DD;
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    border-radius: 8px;
+    padding: 5px 15px;
+}
+
+/* Filters Button */
+.all-students-table-wrapper .css-di3982 button:last-child {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 1px 2px 0px #1018280D;
+    border: 1px solid #D0D5DD;
+    padding: 10px 70px;
+    padding-left: 10px;
+    position: relative;
+}
+
+.all-students-table-wrapper .css-di3982 button:last-child::after {
+    position: absolute;
+    content: 'Filters';
+    padding-left: 80px;
+    font-size: 16px;
+}
+
+/* Export Button */
+.all-students-table-wrapper .export-btn {
+    background-color: #28B850;
+    font-weight: 700;
+    text-transform: capitalize;
+    padding: 10px 40px;
+}

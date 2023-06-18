@@ -2,6 +2,12 @@
     width: 100%;
 }
 
+.all-jobs-wrapper table tr td,
+.all-jobs-wrapper table th {
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+
 /* Pagination Part */
 .all-jobs-wrapper .css-1llu0od {
     padding: 35px;
