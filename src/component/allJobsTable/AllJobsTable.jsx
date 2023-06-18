@@ -154,10 +154,9 @@ const AllJobsTable = () => {
                         padding='10px'
                         variant="h5">Posted Jobs</Typography>
                 )}
-                enableRowActions
                 enableSorting={false}
+                enableRowActions
                 positionActionsColumn="last"
-                
                 renderRowActionMenuItems={({ closeMenu }) => [
                     <MenuItem
                         key={0}
@@ -186,8 +185,6 @@ const AllJobsTable = () => {
                         Send Email
                     </MenuItem>,
                 ]}
-
-
 
             />
         </div>

@@ -6,6 +6,7 @@ import DashboardRoot from "../pages/dashboard/dashboardRoot/DashboardRoot";
 import PostAJob from "../pages/dashboard/postAJob/PostAJob";
 import ViewAllJobs from "../pages/dashboard/viewAllJobs/ViewAllJobs";
 import AllStudents from "../pages/dashboard/allStundets/AllStudents";
+import FindStudents from "../pages/dashboard/findStudents/FindStudents";
 
 const router = createBrowserRouter([
     {
@@ -39,6 +40,10 @@ const router = createBrowserRouter([
                     {
                         path: 'dashboard/allStudents',
                         element: <AllStudents />
+                    },
+                    {
+                        path: 'dashboard/findStudents',
+                        element: <FindStudents />
                     }
                 ]
             }

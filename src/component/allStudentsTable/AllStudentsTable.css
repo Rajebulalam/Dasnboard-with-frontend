@@ -115,7 +115,7 @@
     font-size: 16px;
 }
 
-.all-students-table-wrapper .css-v4u5dn-MuiInputBase-root-MuiInput-root:before {
+.all-students-table-wrapper .css-v4u5dn-MuiInputBase-root-MuiInput-root::before {
     border: none;
 }
 
@@ -126,6 +126,7 @@
     border-radius: 8px;
     padding: 5px 15px;
 }
+
 
 /* Filters Button */
 .all-students-table-wrapper .css-di3982 button:last-child {

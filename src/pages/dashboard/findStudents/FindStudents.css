@@ -1,0 +1,13 @@
+.find-students-wrapper {}
+
+.find-students-wrapper .dashboard-table {
+    padding: 15px 30px;
+}
+
+.find-students-wrapper .dashboard-table h2 {
+    font-size: 34px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 15px;
+}
