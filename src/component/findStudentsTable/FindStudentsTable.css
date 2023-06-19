@@ -14,6 +14,10 @@
     padding-left: 10px;
 }
 
+.find-students-table-wrapper table tr td:last-child {
+    text-align: center;
+}
+
 
 /* Pagination Part */
 .find-students-table-wrapper .css-1llu0od {

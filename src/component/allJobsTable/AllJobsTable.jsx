@@ -84,27 +84,27 @@ const AllJobsTable = () => {
             {
                 header: 'Job Name',
                 accessorKey: 'name',
-                size: 155
+                size: 140
             },
             {
                 header: 'Job Description',
                 accessorKey: 'description',
-                size: 110
+                size: 100
             },
             {
                 header: 'Date Uploaded',
                 accessorKey: 'uploadDate',
-                size: 80
+                size: 100
             },
             {
                 header: 'Last Updated',
                 accessorKey: 'lastUpdate',
-                size: 80
+                size: 100
             },
             {
                 header: 'Uploaded By',
                 accessorKey: 'uploadBy',
-                size: 80
+                size: 100
             }
         ],
         [],
@@ -155,7 +155,11 @@ const AllJobsTable = () => {
                         variant="h5">Posted Jobs</Typography>
                 )}
                 enableSorting={false}
+                initialState={{
+                    pagination: { pageSize: 5, pageIndex: 0 }
+                }}
                 enableRowActions
+                muiTableContainerProps={{ sx: { maxHeight: '420px' } }}
                 positionActionsColumn="last"
                 renderRowActionMenuItems={({ closeMenu }) => [
                     <MenuItem

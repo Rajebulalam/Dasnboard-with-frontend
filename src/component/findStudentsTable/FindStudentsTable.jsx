@@ -109,6 +109,22 @@ const FindStudentsTable = () => {
                 enableHiding={false}
                 enableColumnActions={false}
 
+                initialState={{
+                    pagination: {
+                        pageSize: 5,
+                        pageIndex: 0
+                    }
+                }}
+
+                muiTableBodyRowProps={{
+                    sx: {
+                        '& td:nth-of-type(2)': {
+                            fontWeight: 600
+                        }
+                    }
+                }}
+
+                muiTableContainerProps={{ sx: { maxHeight: '420px' } }}
                 muiTableBodyProps={{
                     sx: {
                         '& tr:nth-of-type(odd)': {

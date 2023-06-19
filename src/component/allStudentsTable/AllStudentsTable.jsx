@@ -94,6 +94,22 @@ const AllStudentsTable = () => {
                 enableDensityToggle={false}
                 enableFullScreenToggle={false}
                 enableHiding={false}
+
+                initialState={{
+                    pagination: {
+                        pageSize: 5,
+                        pageIndex: 0
+                    }
+                }}
+
+                muiTableBodyRowProps={{
+                    sx: {
+                        '& td:nth-of-type(2)': {
+                            fontWeight: 600
+                        }
+                    }
+                }}
+
                 positionGlobalFilter='left'
                 muiTableBodyProps={{
                     sx: {
@@ -102,6 +118,8 @@ const AllStudentsTable = () => {
                         }
                     }
                 }}
+
+                muiTableContainerProps={{ sx: { maxHeight: '420px' } }}
                 muiTablePaginationProps={{
                     sx: {
                         fontSize: '18px',

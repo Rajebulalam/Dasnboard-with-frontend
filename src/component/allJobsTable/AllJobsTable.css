@@ -8,6 +8,10 @@
     padding-bottom: 17px;
 }
 
+.all-jobs-wrapper table tr td:last-child {
+    text-align: center;
+}
+
 /* Pagination Part */
 .all-jobs-wrapper .css-1llu0od {
     padding: 35px;
